@@ -1,5 +1,7 @@
 # pokedex en React
-Esta aplicacion tiene la intencion de ser poquedex [pokeApi](https://pokeapi.co/).
+Esta aplicacion tiene la intencion de ser poquedex 
+coantruida usando la libreria React como base y
+adicional consumir información informacion de la [pokeApi](https://pokeapi.co/).
 ## Comandos disponibles
 
  `npm start`

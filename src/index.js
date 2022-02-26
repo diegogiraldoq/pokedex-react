@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from './components/pages/Home'
 
 ReactDOM.render(
-  <h1>Hola Amigos</h1>,
-  document.getElementById('root')
+  <Home />,
+  document.getElementById('app')
 );
-
