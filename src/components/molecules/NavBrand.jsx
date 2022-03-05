@@ -10,10 +10,10 @@ export const NavBrand = () => {
     navigate('/')
   };
   return(
-  <div oneClick={handleClick}>
-    <img src="" alt="Logo de la aplicacion"/>
-    <span>POKEDEX_</span>
-  </div>
+   <div oneClick={handleClick}>
+     <img src="" alt="Logo de la aplicacion"/>
+     <span>POKEDEX_</span>
+   </div>
  );
 };
 

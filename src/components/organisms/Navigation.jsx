@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBrand from '../molecules/NavBrand';
+import NavItems from '../molecules/NavItems';
  
 /**
  * Navigation component.
@@ -7,7 +8,8 @@ import NavBrand from '../molecules/NavBrand';
  */
 export const Navigation = () => (
 <nav>
-    <NavBrand/>
+    <NavBrand />
+    <NavItems />
 </nav>
 );
 
