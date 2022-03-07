@@ -6,7 +6,7 @@ import DefaultLayout from "../layouts/DefoultLayout";
  * @returns {JSX.Element}
  */
 export const NotFount = () => (
-<DefaultLayout>
+<DefaultLayout title='404'>
     <h1>Not found page</h1>
 </DefaultLayout>
 );
