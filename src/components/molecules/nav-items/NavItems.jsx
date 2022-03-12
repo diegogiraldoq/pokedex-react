@@ -1,5 +1,6 @@
 import React from "react";
 import { Link }  from 'react-router-dom';
+import './NavItems.css';
 
 
 /**
@@ -7,8 +8,8 @@ import { Link }  from 'react-router-dom';
  * @returns {JSX.Element}
  */
 const NavItems = () => (
-  <div>
-    <Link to='/about'>Acerca de</Link>
+  <div className='m-nav.items'>
+    <Link className='m-nav-items__item' to='/about'>Acerca de</Link>
   </div>
 );
 
