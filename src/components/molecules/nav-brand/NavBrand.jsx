@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import logo from '../../../assets/img/logo.png';
+
 /**
  * Navigation brand component
  * @returns {JSX.Element}
@@ -11,7 +13,7 @@ const NavBrand = () => {
   };
   return(
    <div onClick={handleClick}>
-     <img src='' alt='Logo de la aplicacion' />
+     <img src={logo} alt='Logo de la aplicacion' />
      <span>POKEDEX_</span>
    </div>
   );
