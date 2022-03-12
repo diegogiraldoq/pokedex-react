@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import PokemonDetails from './components/pages/PokemonDetails';
-import NotFount from './components/pages/NotFount';
+import Home from './components/pages//home/Home';
+import About from './components/pages/about/About';
+import PokemonDetails from './components/pages/pokemon-details/PokemonDetails';
+import NotFount from './components/pages/not-found/NotFount';
 
 
 /**

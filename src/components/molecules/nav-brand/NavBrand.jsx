@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
  * Navigation brand component
  * @returns {JSX.Element}
  */
-export const NavBrand = () => {
+const NavBrand = () => {
   let navigate = useNavigate();
   const handleClick = () => {
     navigate('/')
