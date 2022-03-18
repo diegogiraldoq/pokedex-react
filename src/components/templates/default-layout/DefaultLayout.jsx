@@ -8,7 +8,7 @@ import './DefaultLayout.css';
 
 /**
  * Default layout for site.
- * @param {{children: React. ReactNode title: string}} Props
+ * @param {{children: React.ReactNode title: string}} Props
  * @returns {JSX.Element}
  */
 const DefaultLayout = (props) => (
