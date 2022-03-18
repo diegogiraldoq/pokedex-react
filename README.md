@@ -1,4 +1,6 @@
 # pokedex en React
+
+**Versión:** 0.1
 Esta aplicacion tiene la intencion de ser poquedex 
 coantruida usando la libreria React como base y
 adicional consumir información informacion de la [pokeApi](https://pokeapi.co/).
