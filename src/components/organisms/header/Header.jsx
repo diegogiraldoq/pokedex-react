@@ -5,7 +5,7 @@ import React from 'react';
  * Componente para la cabecera de la pokedex. 
  * @returns {JSX.Element}
  */
-export const Header = () =>(
+const Header = () =>(
   <header></header>
 );
 
