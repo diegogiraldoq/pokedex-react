@@ -23,19 +23,21 @@ const NavItems = (props) => {
   );
 
   /**
-  * Build navigation items for navbar
-  * @param {{text: string, target: string}[]} items
-  * @returns {JSX.Element}
-  */
- const buildItems = () => (props.items ? props.items.map(buildItem) : <></>);
- return <div className='m-nav-items'>{buildItems()}</div>;
+   * Build navigation items for navbar
+   * @param {{text: string, target: string}[]} items
+   * @returns {JSX.Element}
+   */
+  const buildItems = () => (props.items ? props.items.map(buildItem) : <></>);
+  return <div className='m-nav-items'>{buildItems()}</div>;
 };
 
 NavItems.propTypes = {
-  items: PropTypes.shape({
-    text: PropTypes.string,
-    target: PropTypes.string,
-  })
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      text: PropTypes.string,
+      target: PropTypes.string,
+    })
+  ),
 };
 
 export default NavItems;
