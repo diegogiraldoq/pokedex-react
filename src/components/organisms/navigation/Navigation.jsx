@@ -13,6 +13,7 @@ const Navigation = () => (
     <NavBrand />
     <NavItems  items={navItems} />
   </nav>
+
 );
 
 export default Navigation;

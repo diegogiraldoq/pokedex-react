@@ -12,10 +12,10 @@ const NavBrand = () => {
     navigate('/')
   };
   return(
-   <div className='m-nav-brand' onClick={handleClick}>
-     <img className='m-nav-brand__image' src={logo} alt='Logo de la aplicacion' />
-     <span className='m-nav-brand__text'>POKEDEX_</span>
-   </div>
+  <div className='m-nav-brand' onClick={handleClick}>
+    <img className='m-nav-brand__image' src={logo} alt='Logo de la aplicacion' />
+    <span className='m-nav-brand__text'>POKEDEX_</span>
+  </div>
   );
 };
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import SEO from 'components/organisms/seo/SEO';
-import Header from 'components/organisms/header/Header';
 import Navigation from 'components/organisms/navigation/Navigation';
 import MainContainer from 'components/organisms/main-container/MainContainer';
 import Footer from 'components/organisms/footer/Footer';
@@ -13,11 +12,10 @@ import './DefaultLayout.css';
  */
 const DefaultLayout = (props) => (
   <>
-     <SEO title={props.title} />
-     <Header/>
-     <Navigation />
-     <MainContainer>{props.children}</MainContainer>
-     <Footer />
+    <SEO title={props.title} />
+    <Navigation />
+    <MainContainer>{props.children}</MainContainer>
+    <Footer />
   </>
 );
 export default DefaultLayout;
