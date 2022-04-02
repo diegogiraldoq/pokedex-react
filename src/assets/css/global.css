@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=IBM+Plex+Sans&display=swap');
 :root{
-  --fonts-base: 'IMB Plex Sans', sans-serif;
+  --fonts-base: 'IBM Plex Sans', sans-serif;
   --fonts-titles: 'Courgette', cursive;
 }
 * {
