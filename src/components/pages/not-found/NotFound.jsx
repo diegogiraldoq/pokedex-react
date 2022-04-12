@@ -1,5 +1,7 @@
 import React from "react";
 import DefaultLayout from "components/templates/default-layout/DefaultLayout";
+import errorimage from "assets/img/error.png";
+import './NotFound.css';
 
 /**
  * Not fount component
@@ -7,7 +9,7 @@ import DefaultLayout from "components/templates/default-layout/DefaultLayout";
  */
 const NotFound = () => (
 <DefaultLayout title='404'>
-    <h1>Not found page</h1>
+    <img className='not-found__image' src={errorimage} alt='error de busqueda' />
 </DefaultLayout>
 );
 

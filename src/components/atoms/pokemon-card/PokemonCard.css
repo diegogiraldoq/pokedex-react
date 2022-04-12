@@ -1,0 +1,15 @@
+.a-pokemon-card {
+  align-content: center;
+  display: flex;
+  background-color: var(--color-light-grey);
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 50%;
+}
+
+.a-pokemon-card__image {
+  align-content: center;
+  display: flex;
+  width: 50%;
+}

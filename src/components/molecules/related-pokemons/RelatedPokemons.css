@@ -1,0 +1,10 @@
+.m-related-pokemons{
+  align-self:center;
+  display: flex;
+}
+
+.m-related-pokemon__titile{
+  margin-top: 1rem;
+  padding: 25px;
+  padding-right: 10rem;
+}
