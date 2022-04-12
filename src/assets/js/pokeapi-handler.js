@@ -5,9 +5,20 @@ export const fetchPokemon = async (pokemonName) => {
         );
         let pokemonData = await apiResponse.json()
         return {
-            name: pokemonData.name,
-            image: pokemonData.sprites.front_default
-        }
+            pokemon: {
+                type: pokemonData.types[0].type.name || 'undefined',
+                name: pokemonData.name,
+                image: pokemonData.sprites.other.dream_world.front_default,
+                stats: {
+                    No: pokemonData.id,
+                    level: pokemonData.base_experience,
+                    type: pokemonData.types[0].type.name.toUpperCase(3, '0'),
+                    hability: pokemonData.abilities[0].ability.name.toUpperCase(),
+                    height: `${pokemonData.height} m`,
+                    weight: `${pokemonData.weight} KG` 
+                }
+            }, 
+        }  
     } catch (error) {
         return null
     }
