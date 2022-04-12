@@ -1,10 +1,13 @@
 import React from 'react';
 import './PokemonStat.css';
 
-const PokemonStat = () => (
-  <div className='a-pokemon-stat'>
-      <span className='a-pokemon-stat__name'>Nombre</span>
-      <span className='a-pokemon-stat__Value'>Valor</span>
-  </div>
-);
+const PokemonStat = (props) => {
+  const {name, value} = props;
+  return(
+    <div className='a-pokemon-stat'>
+      <span className='a-pokemon-stat__name'>{name}</span>
+      <span className='a-pokemon-stat__Value'>{value}</span>
+    </div>
+  );
+};
 export default PokemonStat;

@@ -6,6 +6,7 @@ import PokemonView from 'components/molecules/pokemon-view/PokemonView';
 import loadingImage from 'assets/img/loading.gif';
 import RelatedPokemons from 'components/molecules/related-pokemons/RelatedPokemons';
 
+
 /**
  * Pokemon details component
  * @returns 
@@ -22,8 +23,8 @@ const PokemonDetails = () => {
     <DefaultLayout title='Detalle'>
         {pokemonData ? (
         <>
-          <PokemonView name={pokemonData.name} image={pokemonData.image} />
-          <RelatedPokemons />
+          <PokemonView pokemon={pokemonData.pokemon} />
+          <RelatedPokemons chain={pokemonData.chain} />
         </>
           
         ) : (

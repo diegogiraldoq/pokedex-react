@@ -1,0 +1,28 @@
+.home-container{
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 82vh;
+  
+}
+
+
+.title-initial__page {
+  align-content: center;
+  display: flex;
+  padding-right: 2rem;
+  justify-content: center;
+  margin:2rem;
+}
+
+.link-pokemon__details {
+  background-color: var(--color-red);
+  color: black;
+  border-radius: 2rem;
+  padding:8px 8px;
+  height: 30px;
+  margin-top: 500px;
+  text-decoration: none;
+  position: absolute;
+}

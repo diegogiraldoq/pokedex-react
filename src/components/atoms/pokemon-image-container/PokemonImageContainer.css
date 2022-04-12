@@ -9,6 +9,7 @@
 
 .a-pokemon-image-container__image {
   max-height: 100%;
+  width: 70%;
 }
 
 .a-pokemon-image-container__image--horizontal {

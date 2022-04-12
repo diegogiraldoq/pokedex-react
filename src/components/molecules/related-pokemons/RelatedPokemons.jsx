@@ -1,5 +1,6 @@
 import PokemonsCards from 'components/atoms/pokemons-cards/PokemonsCards';
 import React from 'react';
+import './RelatedPokemons.css';
 
 const RelatedPokemons = () => (
   <section  className='m-related-pokemons'>  
